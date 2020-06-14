@@ -39,6 +39,9 @@
     <ClCompile Include="lambda_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="move_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Timer.hpp">
