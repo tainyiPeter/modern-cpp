@@ -52,12 +52,10 @@ void func()
 	}
 }
 
-int main()
-{
-	auto k = std::plus<int>(3, 4);
+//int main()
+//{
+//	func();
+//
+//	return 0;
+//}
 
-	return 0;
-	func();
-
-	return 0;
-}
