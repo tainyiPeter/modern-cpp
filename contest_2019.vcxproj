@@ -152,6 +152,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="contest_2019.cpp" />
+    <ClCompile Include="forward.cpp" />
+    <ClCompile Include="item_26_avoid.cpp" />
     <ClCompile Include="lambda_test.cpp" />
     <ClCompile Include="list_test.cpp" />
     <ClCompile Include="memory_leaker.cpp" />
@@ -160,10 +162,12 @@
     <ClCompile Include="smart_pointer_test.cpp" />
     <ClCompile Include="string_test.cpp" />
     <ClCompile Include="tuple.cpp" />
+    <ClCompile Include="type_traits_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stl_header.h" />
     <ClInclude Include="Timer.hpp" />
+    <ClInclude Include="Widget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

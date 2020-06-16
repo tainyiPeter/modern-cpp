@@ -42,12 +42,24 @@
     <ClCompile Include="move_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="forward.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="type_traits_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="item_26_avoid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Timer.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="stl_header.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
