@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="contest_2019.cpp" />
     <ClCompile Include="forward.cpp" />
+    <ClCompile Include="item_10_enum.cpp" />
     <ClCompile Include="item_26_avoid.cpp" />
     <ClCompile Include="lambda_test.cpp" />
     <ClCompile Include="list_test.cpp" />

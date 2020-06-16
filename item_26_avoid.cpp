@@ -78,11 +78,11 @@ private:
 	std::string name;
 };
 
-int main()
-{
-	Person p("panyuanbo");
-	short s = 1;
-	Person p2(s);
-
-	return 0;
-}
+//int main()
+//{
+//	Person p("panyuanbo");
+//	short s = 1;
+//	Person p2(s);
+//
+//	return 0;
+//}
