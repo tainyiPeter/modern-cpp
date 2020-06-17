@@ -51,6 +51,12 @@
     <ClCompile Include="item_26_avoid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Item1_template_deduce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="item_2_auto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Timer.hpp">
