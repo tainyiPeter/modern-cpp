@@ -154,11 +154,15 @@
     <ClCompile Include="contest_2019.cpp" />
     <ClCompile Include="forward.cpp" />
     <ClCompile Include="item_10_enum.cpp" />
+    <ClCompile Include="item_16_const_member.cpp" />
     <ClCompile Include="item_26_avoid.cpp" />
+    <ClCompile Include="item_35_task.cpp" />
+    <ClCompile Include="item_39_threads.cpp" />
     <ClCompile Include="lambda_test.cpp" />
     <ClCompile Include="list_test.cpp" />
     <ClCompile Include="memory_leaker.cpp" />
     <ClCompile Include="move_test.cpp" />
+    <ClCompile Include="result_of_test.cpp" />
     <ClCompile Include="smart_pointer.cpp" />
     <ClCompile Include="smart_pointer_test.cpp" />
     <ClCompile Include="string_test.cpp" />

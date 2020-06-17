@@ -8,3 +8,8 @@
 #include <functional>
 #include <algorithm>
 #include <chrono>
+#include <thread>
+#include <future>
+#include <chrono>
+
+#include <type_traits>

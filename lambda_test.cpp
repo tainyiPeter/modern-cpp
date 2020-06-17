@@ -27,7 +27,7 @@ void func()
 
 	for (int i = 0; i < 100; ++i)
 	{
-		v.push_back(i);			
+		v.push_back(i);
 	}
 
 	auto it = find_if(v.begin(), v.end(), ([&](int& a) -> bool { 
@@ -52,9 +52,39 @@ void func()
 	}
 }
 
+void func_lambda_11()
+{
+	
+}
+
+int g_k;
+int g_l;
+
+void func_lambda_10()
+{
+	int mode = 5;
+	int kv = 99;
+
+	Func f1 = ([mode, &kv](int value) -> bool {
+		//mode = 100;
+		g_k = mode;
+		g_l = kv;
+		kv = 44;
+		return value % mode == 0;
+	});
+
+	auto ret = f1(58);
+	cout << "call func_10:" << ret \
+		<< " mode:" << mode \
+		<< " g_k:" << g_k \
+		<< " g_l:" << g_l \
+		<< " kv:" << kv \
+		<< endl;
+}
+
 //int main()
 //{
-//	func();
+//	func_lambda_10();
 //
 //	return 0;
 //}

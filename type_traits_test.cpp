@@ -1,12 +1,11 @@
 #include "stl_header.h"
 
-#include <type_traits> // std::is_same
 
 using namespace std;
 
 template<class T1, class T2>
 void print_is_same() {
-	std::cout << std::is_same<T1, T2>() << '\n';
+	std::cout << std::is_same<T1, T2>::value << '\n';
 }
 
 //int main()

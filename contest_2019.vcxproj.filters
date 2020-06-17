@@ -54,16 +54,28 @@
     <ClCompile Include="item_10_enum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="item_16_const_member.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="item_39_threads.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="item_35_task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="result_of_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Timer.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="stl_header.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Widget.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
