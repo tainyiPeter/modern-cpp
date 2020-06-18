@@ -19,25 +19,25 @@ void doAsyncWork(const string& s)
 	
 }
 
-int main()
-{
-	//thread t(doAsyncWork);
-	//t.join();
-
-	auto fut = std::async(std::launch::async|std::launch::deferred, \
-		doAsyncWork, "hahaha ...");
-
-	cout << "fut.get..." << endl;
-
-	return 0;
-
-	//fut.get();
-	auto wStatus = fut.wait_for(2s);
-	if (std::future_status::ready == wStatus)
-	{
-		cout << "the status :" << (int)wStatus << endl;
-	}
-
-	cout << "finish ..." << endl;
-	return 0;
-}
+//int main()
+//{
+//	//thread t(doAsyncWork);
+//	//t.join();
+//
+//	auto fut = std::async(std::launch::async|std::launch::deferred, \
+//		doAsyncWork, "hahaha ...");
+//
+//	cout << "fut.get..." << endl;
+//
+//	return 0;
+//
+//	//fut.get();
+//	auto wStatus = fut.wait_for(2s);
+//	if (std::future_status::ready == wStatus)
+//	{
+//		cout << "the status :" << (int)wStatus << endl;
+//	}
+//
+//	cout << "finish ..." << endl;
+//	return 0;
+//}
