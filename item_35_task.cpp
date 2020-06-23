@@ -16,7 +16,6 @@ void doAsyncWork(const string& s)
 		
 		//Sleep(gap);
 	}
-	
 }
 
 //int main()

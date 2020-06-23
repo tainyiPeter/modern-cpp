@@ -19,7 +19,6 @@ public:
 		a.m_ptr = nullptr;
 		cout << "move construct" << endl;
 	}
-
 	~A() { 
 		cout << "call destroy A()" << endl;
 		delete m_ptr; 

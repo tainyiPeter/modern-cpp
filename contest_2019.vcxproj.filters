@@ -78,6 +78,12 @@
     <ClCompile Include="da_lazy_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="item25_move_forwad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="da_second.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stl_header.h">
@@ -93,6 +99,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Lazy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Any.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="type_name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

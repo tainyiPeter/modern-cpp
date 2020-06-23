@@ -5,33 +5,15 @@ using namespace std;
 
 class Widget {
 public:
-	//template<typename T>
-	//void setName(T&& newName) // universal reference
-	//{
-	//	name = std::move(newName);
-	//} // compiles, but is// bad, bad, bad!
-
-
-	void setName(const std::string& newName) // set from
+	Widget(Widget&& rhs)
+		: s(std::move(rhs.s))
 	{
-		cout << "setNmae const .." << endl;
-		name = newName;
-	} // const lvalue
-
-	void setName(std::string&& newName) // set from
-	{
-		cout << "setNmae && .." << endl;
-		name = std::move(newName);
-	}
-
-	void print_name()
-	{
-		cout << "the name is:" << name.c_str() << endl;
+		++moveCtorCalls;
 	}
 
 private:
-	std::string name;
-	//std::shared_ptr<SomeDataStructure> p;
+	static std::size_t moveCtorCalls;
+	std::string s;
 };
 
 void process(const Widget& lvalArg)
@@ -55,25 +37,15 @@ void logAndProcess(T&& param) // param to process
 
 string getWidgetName()
 {
-	string s;
-	s = "haha";
-
+	string s("ssss");
 	return s;
 }
 
-void test_widget()
-{
-	Widget w;
-	auto n = getWidgetName(); // n is local variable
-	cout << "n is " << n.c_str() << endl;
-	w.setName("niu yuue");
-}
-
-
-
+//
 //int main()
 //{
-//	test_logadd();
+//	Widget k = getWidget();
+//	logAndProcess(k);
 //
 //	return 0;
 //}

@@ -155,7 +155,9 @@
     <ClCompile Include="da_lazy_test.cpp" />
     <ClCompile Include="da_moreparam.cpp" />
     <ClCompile Include="da_option_test.cpp" />
+    <ClCompile Include="da_second.cpp" />
     <ClCompile Include="forward.cpp" />
+    <ClCompile Include="item25_move_forwad.cpp" />
     <ClCompile Include="item_10_enum.cpp" />
     <ClCompile Include="item_16_const_member.cpp" />
     <ClCompile Include="item_26_avoid.cpp" />
@@ -174,10 +176,13 @@
     <ClCompile Include="type_traits_test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Any.hpp" />
     <ClInclude Include="Lazy.hpp" />
+    <ClInclude Include="ObjectPool.hpp" />
     <ClInclude Include="optional.hpp" />
     <ClInclude Include="stl_header.h" />
     <ClInclude Include="Timer.hpp" />
+    <ClInclude Include="type_name.h" />
     <ClInclude Include="Widget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
