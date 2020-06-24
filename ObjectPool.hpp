@@ -23,7 +23,9 @@ public:
 		auto constructName = typeid(Constructor<Args...>).name(); //不区分引用
 		for (size_t i = 0; i <num; i++)
 		{
-			m_object_map.emplace(constructName, shared_ptr<T>(new T(std::forward<Args>(args)...), [this, constructName](T* p) //删除器中不直接删除对象，而是回收到对象池中，以供下次使用
+			m_object_map.emplace(constructName, \
+				shared_ptr<T>(new T(std::forward<Args>(args)...), \
+					[this, constructName](T* p) //删除器中不直接删除对象，而是回收到对象池中，以供下次使用
 			{
 				m_object_map.emplace(std::move(constructName), std::shared_ptr<T>(p));
 			}));
@@ -35,6 +37,8 @@ public:
 	std::shared_ptr<T> Get()
 	{
 		string constructName = typeid(Constructor<Args...>).name();
+
+		//std::cout << "constructName:\t" << constructName.c_str() << std::endl;
 
 		auto range = m_object_map.equal_range(constructName);
 		for (auto it = range.first; it != range.second; ++it)

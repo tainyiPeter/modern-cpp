@@ -178,6 +178,7 @@
   <ItemGroup>
     <ClInclude Include="Any.hpp" />
     <ClInclude Include="Lazy.hpp" />
+    <ClInclude Include="NonCopyable.hpp" />
     <ClInclude Include="ObjectPool.hpp" />
     <ClInclude Include="optional.hpp" />
     <ClInclude Include="stl_header.h" />

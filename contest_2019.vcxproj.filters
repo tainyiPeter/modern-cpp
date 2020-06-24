@@ -110,5 +110,8 @@
     <ClInclude Include="ObjectPool.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="NonCopyable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
