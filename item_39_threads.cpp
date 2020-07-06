@@ -36,9 +36,12 @@ bool doWork(std::function<bool(int)> filter, // returns whether
 
 using Fn = std::function<bool(int)>;
 
-//
+map<int, string> m;
+
 //int main()
 //{
+//	m[1] = "ss";
+//
 //	Fn f = ( [](int param) -> bool {
 //		cout << "the param is:" << param << endl;
 //		return true;
@@ -49,7 +52,9 @@ using Fn = std::function<bool(int)>;
 //		for (int i = 0; i<10;i++)
 //		{
 //			cout << "thread .."<< i << endl;
+//			cout << m.begin()->second.c_str() << endl;
 //			Sleep(1000);
+//			
 //		}
 //		
 //	});
@@ -57,7 +62,7 @@ using Fn = std::function<bool(int)>;
 //
 //	cout << "joinable :" << t.joinable();
 //
-//
+//	m.erase(11);
 //
 //	cout << "-------------------------------" << endl;
 //	Sleep(1000 * 3);

@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="char_test.cpp" />
     <ClCompile Include="contest_2019.cpp" />
     <ClCompile Include="da_lazy_test.cpp" />
     <ClCompile Include="da_moreparam.cpp" />

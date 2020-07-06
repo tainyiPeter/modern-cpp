@@ -68,9 +68,9 @@ void TestObjPool()
 	display(p, "p");
 }
 
-int main()
-{
-	TestObjPool();
-
-	return 0;
-}
+//int main()
+//{
+//	TestObjPool();
+//
+//	return 0;
+//}
