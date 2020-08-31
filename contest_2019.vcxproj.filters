@@ -90,6 +90,9 @@
     <ClCompile Include="da_5_thread.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="da_5_condition_variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stl_header.h">
@@ -117,6 +120,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NonCopyable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSyncQueue.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
