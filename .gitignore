@@ -1,5 +1,19 @@
+<<<<<<< HEAD
 *.db
 .vs/
 Debug/
 *.dgml
 Release/
+=======
+*.suo
+*.db
+*.opendb
+*.ipch
+*.log
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.tlog
+>>>>>>> 9317460d0e53b641cb10a60747e78df2efb4954e

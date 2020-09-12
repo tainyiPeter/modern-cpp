@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void test()
+void test_leaker()
 {
 	cout << "start ....." << endl;
 	for (;;)

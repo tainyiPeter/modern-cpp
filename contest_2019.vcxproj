@@ -151,14 +151,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="char_test.cpp" />
     <ClCompile Include="contest_2019.cpp" />
+    <ClCompile Include="da_5_condition_variable.cpp" />
+    <ClCompile Include="da_5_thread.cpp" />
+    <ClCompile Include="da_lazy_test.cpp" />
+    <ClCompile Include="da_moreparam.cpp" />
+    <ClCompile Include="da_option_test.cpp" />
+    <ClCompile Include="da_second.cpp" />
     <ClCompile Include="forward.cpp" />
+    <ClCompile Include="item25_move_forwad.cpp" />
     <ClCompile Include="item_10_enum.cpp" />
+    <ClCompile Include="item_16_const_member.cpp" />
     <ClCompile Include="item_26_avoid.cpp" />
+    <ClCompile Include="item_35_task.cpp" />
+    <ClCompile Include="item_39_threads.cpp" />
     <ClCompile Include="lambda_test.cpp" />
     <ClCompile Include="list_test.cpp" />
     <ClCompile Include="memory_leaker.cpp" />
     <ClCompile Include="move_test.cpp" />
+    <ClCompile Include="result_of_test.cpp" />
+    <ClCompile Include="rvalue_test.cpp" />
     <ClCompile Include="smart_pointer.cpp" />
     <ClCompile Include="smart_pointer_test.cpp" />
     <ClCompile Include="string_test.cpp" />
@@ -166,8 +179,15 @@
     <ClCompile Include="type_traits_test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Any.hpp" />
+    <ClInclude Include="Lazy.hpp" />
+    <ClInclude Include="NonCopyable.hpp" />
+    <ClInclude Include="ObjectPool.hpp" />
+    <ClInclude Include="optional.hpp" />
+    <ClInclude Include="SimpleSyncQueue.hpp" />
     <ClInclude Include="stl_header.h" />
     <ClInclude Include="Timer.hpp" />
+    <ClInclude Include="type_name.h" />
     <ClInclude Include="Widget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

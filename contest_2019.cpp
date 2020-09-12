@@ -33,8 +33,8 @@ enum SubWinType {
 
 struct StockID
 {
-	UCHAR			cMarket;											// 市场信息
-	char 			szCode[GLOBAL_STOCKID_CHARSIZE];		// 股票代码
+	UCHAR			cMarket;
+	char 			szCode[GLOBAL_STOCKID_CHARSIZE];
 
 	StockID()
 	{
