@@ -1,0 +1,5 @@
+*.db
+.vs/
+Debug/
+*.dgml
+Release/
