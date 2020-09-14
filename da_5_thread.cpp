@@ -113,14 +113,6 @@ void da_5_thread_test()
     std::cout << "\n444444443 " << (x ? "is" : "is not") << " prime.\n";
 }
 
-int main()
-{
-    TestAsync();
-
-    return 0;
-}
-
-
 //int main()
 //{
 //    //thread t(thread_da_5, "hello,");

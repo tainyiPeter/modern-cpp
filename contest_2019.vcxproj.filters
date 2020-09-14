@@ -93,6 +93,9 @@
     <ClCompile Include="da_5_condition_variable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="da_3_trait_type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stl_header.h">

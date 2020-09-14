@@ -56,30 +56,28 @@ void map_test()
 }
 
 using PlayerMapType = map< Player, __int64>;
-int main()
-{
-
-
-	PlayerMapType m;
-	Player pid_0(10, "zhang");
-	Player pid_1(10, "zhang");
-	Player pid_2(10, "zsahang");
-
-	m[pid_0] = 77;
-	m[pid_1] = 99;
-	m[pid_2] = 955;
-
-	cout << "cnt:" << m.size() << endl;
-
-	Player pd(10, "zhang2");
-
-	//PlayerMapType::iterator it = m.find(pd);
-	m.erase(pd);
-	//m.erase(it);
-	cout << "after cnt:" << m.size() << endl;
-
-	return 0;
-}
+//int main()
+//{
+//	PlayerMapType m;
+//	Player pid_0(10, "zhang");
+//	Player pid_1(10, "zhang");
+//	Player pid_2(10, "zsahang");
+//
+//	m[pid_0] = 77;
+//	m[pid_1] = 99;
+//	m[pid_2] = 955;
+//
+//	cout << "cnt:" << m.size() << endl;
+//
+//	Player pd(10, "zhang2");
+//
+//	//PlayerMapType::iterator it = m.find(pd);
+//	m.erase(pd);
+//	//m.erase(it);
+//	cout << "after cnt:" << m.size() << endl;
+//
+//	return 0;
+//}
 
 
 std::vector<std::size_t> primeFactors(std::size_t x) // prime factors of x
