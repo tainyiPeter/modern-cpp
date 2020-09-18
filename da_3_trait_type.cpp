@@ -24,13 +24,13 @@ struct my_int_constant
 */
 
 
-int main()
-{
-    typedef my_int_constant<int, 8> T1;
-    typedef my_int_constant<int, 5> T2;
-
-    cout << "is " << std::is_same<T1, T2>::value << endl;
-
-
-    return 0;
-}
+//int main()
+//{
+//    typedef my_int_constant<int, 8> T1;
+//    typedef my_int_constant<int, 5> T2;
+//
+//    cout << "is " << std::is_same<T1, T2>::value << endl;
+//
+//
+//    return 0;
+//}
