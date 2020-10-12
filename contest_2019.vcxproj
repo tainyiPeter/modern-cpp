@@ -154,6 +154,7 @@
     <ClCompile Include="char_test.cpp" />
     <ClCompile Include="contest_2019.cpp" />
     <ClCompile Include="da_1_test.cpp" />
+    <ClCompile Include="da_2_test.cpp" />
     <ClCompile Include="da_3_trait_type.cpp" />
     <ClCompile Include="da_5_condition_variable.cpp" />
     <ClCompile Include="da_5_thread.cpp" />

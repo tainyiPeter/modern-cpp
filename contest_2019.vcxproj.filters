@@ -99,6 +99,9 @@
     <ClCompile Include="da_1_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="da_2_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stl_header.h">
