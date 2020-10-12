@@ -1,6 +1,8 @@
 #include <iostream>
 #include <functional>
 
+using namespace std;
+
 using std::placeholders::_1;
 
 class A
@@ -12,24 +14,33 @@ public:
     {
         std::cout << x << " " << y << std::endl;
     }
+
+
+
+};
+
+
+
+enum {
+    IL_QuickSale = 1 << 9,           //趋势信号,快卖
+    IL_PullUp = 1 << 10,              //趋势信号,拉升
+    IL_StarB = 1 << 11,               //趋势信号,红星B
+    IL_StarS = 1 << 12,               //趋势信号,绿星S
+
 };
 
 int main(void)
 {
-    A a;
+    int cnt = 10;
+    for (int i = 0 ; i < cnt; i ++)
+    {
+        int r = rand();
 
-    //std::function<void(int, int)> fr =
-    //    std::bind(&A::output, &a, std::placeholders::_1, std::placeholders::_2);
-    //fr(1, 2);  //输出 1 2
+        int k1 = r + 256;
+        int k2 = r << 4;
 
-    //return 0;
-
-    std::function<int (char*)> fr_i = std::bind(&A::i_, &a);  //vs13的bug，绑定成员变量要报错
-
-    fr_i() = 123;
-
-
-    std::cout << a.i_ << std::endl;  //输出 123
+        cout << k1 << "  " << k2 << endl;
+    }
 
     return 0;
 }
